@@ -13,7 +13,7 @@ body {
 
 
 h1 {
-	font-family:  arial;
+	font-family: arial;
 	font-size: 48px;
 	padding-bottom: 45px; 
 	padding-top: 50px;
@@ -21,15 +21,15 @@ h1 {
 }
 
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1080px) {
 	h1 {
-		font-size: 70px;
+		font-size: 48px;
 	}
 }
 
 @media screen and (max-width: 540px) {
 	h1 {
-		font-size: 60px;
+		font-size: 28px;
 	}
 }
 
