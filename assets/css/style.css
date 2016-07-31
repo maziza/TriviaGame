@@ -1,0 +1,37 @@
+* {
+	text-align: center;
+
+}
+
+body {
+	/*background-image: url('../images/background1.png');*/	background-color: black;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+
+h1 {
+	font-family:  arial;
+	font-size: 48px;
+	padding-bottom: 45px; 
+	padding-top: 50px;
+	color: purple
+}
+
+
+@media screen and (max-width: 1120px) {
+	h1 {
+		font-size: 70px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	h1 {
+		font-size: 60px;
+	}
+}
+
+
+
