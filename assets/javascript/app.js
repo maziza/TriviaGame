@@ -60,12 +60,13 @@ function runtimer() {
 		if (timervalue == -5)
 			{
 				stopTimer();
-			else{
+			}
+			else {
 				NextQuestion();
 				timervalue = 15;
 				}
-			}
 		}
+		
 
 
 
