@@ -13,8 +13,32 @@
 	var numberunanswered = 0;
 	var iscorrect = 0;
 
-	var triviaQuestions = ["insert questions here"]
-
+	var triviaQuestions = [
+		{
+		  question: "The height of the Great Pyramid of Giza is",
+		  answers: ["455ft", "$523ft", "386ft", "$400ft"],
+		  correctAnswer: 1
+		}, 
+		{
+		  question: "What did men and women wear as makeup in ancient egypt",
+		  answers: ["lipstick", "eyeliner", "skin foundation", "mud masks"],
+		  correctAnswer: 2
+		}, 
+		{
+		  question: "The big dipper constellation was reffered to as what in Ancient Egypt",
+		  answers: ["camel milk", "papyrus", "raisins", "hippopotamus"],
+		  correctAnswer: 4
+		}, 
+		{
+		  question: "What did the Ancient Egyptions call the symbol of life",
+		  answers: ["eye of horus", "Amun", "Ankh", "Akhet"],
+		  correctAnswer: 3
+		}, 
+		{
+		  question: "Toothaches were believed to be cured by what food in Ancient Egypt ",
+		  answers: ["Dog milk", "rodent soup", "grilled cockroach", "fried mice"],
+		  correctAnswer: 4
+		}]
 
 //timer function
 function runtimer() {
